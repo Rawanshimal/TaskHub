@@ -1,0 +1,159 @@
+/* Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 1.5rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a.cta {
+  background-color: #ffc107;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #333;
+}
+
+/* Landing Section */
+.landing {
+  background: #007bff;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.landing h1 {
+  font-size: 2.5rem;
+}
+
+.landing p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.landing a.cta {
+  background-color: #ffc107;
+  padding: 0.75rem 1.5rem;
+  color: #333;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Features Section */
+.features {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 1rem;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.feature {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Signup Section */
+.signup {
+  padding: 2rem;
+  text-align: center;
+}
+
+.signup form {
+  display: inline-block;
+  max-width: 400px;
+  width: 100%;
+}
+
+.signup input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup button.cta {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #ffc107;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
